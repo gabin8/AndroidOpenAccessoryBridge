@@ -1,23 +1,23 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion '22.0.1'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.2'
 
     defaultConfig {
-        applicationId 'com.covertbagel.androidopenaccessorybridge.demo'
-        minSdkVersion 21
-        targetSdkVersion 22
+        applicationId 'com.gabin.androidopenaccessorybridge.demo'
+        minSdkVersion 17
+        targetSdkVersion 27
         versionCode 1
         versionName '1.0'
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
 dependencies {
-    compile project(':library')
+    implementation project(':library')
 }
