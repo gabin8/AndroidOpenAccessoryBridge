@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/local/bin/python3
 # coding=utf-8
 
 # Copyright 2015 Christopher Blay <chris.b.blay@gmail.com>
